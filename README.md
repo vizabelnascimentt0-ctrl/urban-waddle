@@ -1,10 +1,1 @@
-## 🧪 Cenários de Testes Windows (Sysmon + MITRE ATT&CK)
-
-### 1. Deteção de Persistência no Registo (MITRE T1547.001)
-* **Ação:** Criação de uma chave maliciosa na diretoria `Run` do Windows através do PowerShell.
-* **Evidência do Sysmon:** Captura de alteração de Registo (Event ID 13).
-* **Alerta Wazuh:** Identificado como tática de persistência com criticidade média/alta.
-
-### 2. Deteção de Reconhecimento/Acesso a Credenciais
-* **Ação:** Tentativa de leitura de chaves SAM/SYSTEM via CLI.
-* **Alerta Wazuh:** Alerta imediato sobre comandos suspeitos executados por utilizadores não-admnistradores.# urban-waddle
+DispositivoInterface / SubinterfaceVLANEndereço IPMáscara de RedeGateway PadrãoDescrição / FunçãoRouter-CoreGi0/0/0—Sem IP——Interface física ligada ao Switch (Trunk)Router-CoreGi0/0/0.1010192.168.10.1255.255.255.0—Gateway da rede de TIRouter-CoreGi0/0/0.2020192.168.20.1255.255.255.0—Gateway da rede de FinançasSwitch-AcessoVLAN 1 (SVI)1192.168.1.2255.255.255.0192.168.1.1IP de Gestão remota do Switch (SSH)PC-TI-01FastEthernet010192.168.10.10255.255.255.0192.168.10.1Posto de trabalho - Administrador de TIPC-TI-02FastEthernet010192.168.10.11255.255.255.0192.168.10.1Posto de trabalho - Suporte TécnicoPC-FIN-01FastEthernet020192.168.20.10255.255.255.0192.168.20.1Posto de trabalho - ContabilidadePC-FIN-02FastEthernet020192.168.20.11255.255.255.0192.168.20.1Posto de trabalho - Direção Financeira
